@@ -1,0 +1,120 @@
+/*
+	Basic CSS format
+
+	FENG Zili & GUO Mingzhou, Tsinghua-A Team, iGEM
+	2012.09.07
+*/
+
+#contentSub,#search-controls,.fistHeading,#footer-box,#catlinks,#p-logo
+{
+	display:none;
+}
+body {
+	text-align: center;
+	background-color: #FAFAFA;
+}
+
+h2
+{
+	font-size: 3em;
+	text-align: left;
+	font-family: 'Raleway Dots', cursive;
+}
+p
+{
+	text-align: left;
+	float: left;
+	font-family: 'Oxygen Mono', sans-serif;
+}
+li.topButton
+{
+
+float:left;
+width:149px;
+height: 31px;
+font-size: 1.2em;
+text-decoration:none;
+color:white;
+background-color:#ED6677;
+padding:5px;
+border-right:1px solid white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li.topButton:hover {background-color:#93278F}
+li.topButton {display:inline}
+
+li.navigationButton
+{
+	float:left;
+	width:120px;
+	height:30px;
+	margin-left: -40px;
+	text-decoration: none;
+	color: white;
+	background-color: #9BCD9B;
+	border-bottom: 1px solid white;
+	display:block;
+
+}
+.text
+{
+	position: absolute;
+	margin-right: 0;
+	padding:20px;
+	padding-top: 0px;
+	padding-right:0;  
+	top:100px;
+	border:solid ;
+	border-image: url(pictures/bgp.png)10 10 10 10;
+	-webkit-border-image:url(pictures/bgp.png)10 10 10 10;
+	-moz-border-image:url(pictures/bgp.png)10 10 10 10;
+	width:735px;
+}
+#pageWrapper {
+	width: 960px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: transparent;
+}
+
+#banner {
+	position:fixed;
+	width: 960px;
+	top:0;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	background-color: transparent;
+}
+
+#navigationBar {
+	position: fixed;
+	text-align: center;
+	margin-left: 0;
+	top:50px;
+	width: 0px;
+	float: left;
+	height: 800px;
+	background-color: transparent;
+}
+
+#mainField {
+	position:relative;
+	left:200px;
+	float: left;
+	width: 860px;
+	height: 1500px;
+	background-color: transparent;
+}
+
+#footer {
+	clear: both;
+	height: 40px;
+	background-color: white;
+}
